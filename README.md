@@ -77,6 +77,3 @@ This app is configured as a Progressive Web App using `next-pwa`.
 - **Service Worker**: Caches assets automatically. `My Bookings` and search APIs are cached using a Stale-While-Revalidate strategy.
 - **Offline Fallback**: Disconnecting the internet and navigating to a new route displays the `/~offline` page, while previously visited pages (like `/my-bookings`) remain perfectly readable using the last cached data.
 
-*(Lighthouse PWA Score screenshot is available below)*
-
-![Lighthouse Score](/public/lighthouse-score.png)
